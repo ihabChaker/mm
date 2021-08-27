@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
 import Conversation from './Conversation';
 import Sidebar from './Sidebar';
-
+import { requestFirebaseNotificationPermission, onMessageListener } from "../../../../firebase/firebaseInit"
 class Content extends Component {
+
     render() {
+
+
         return (
             <div className="ms-content-wrapper">
                 <div className="row">
-                    <Sidebar/>
-                    <Conversation/>
-                </div> 
+                    <Sidebar />
+                    <Conversation />
+                </div>
             </div>
         );
     }

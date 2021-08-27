@@ -364,9 +364,9 @@ class Sidenav extends Component {
                             </Accordion.Toggle>
                             <Accordion.Collapse eventKey="22">
                                 <ul>
-                                    <li> <Link to="/apps/chat">Chat</Link> </li>
-                                    <li> <Link to="/apps/email">Email</Link> </li>
-                                    <li> <Link to="/apps/to-do-list">To-do List</Link> </li>
+                                    <li> <Link to="/chat">Chat</Link> </li>
+                                    <li> <Link to="/email">Email</Link> </li>
+                                    <li> <Link to="/to-do-list">To-do List</Link> </li>
                                 </ul>
                             </Accordion.Collapse>
                         </li>

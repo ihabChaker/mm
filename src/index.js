@@ -21,11 +21,12 @@ import './assets/vendors/iconic-fonts/cryptocoins/cryptocoins.css';
 import './assets/vendors/iconic-fonts/cryptocoins/cryptocoins-colors.css';
 import './assets/vendors/iconic-fonts/font-awesome/css/all.min.css';
 import './assets/css/style.css';
+import { registerServiceWorker } from './firebase/serviceworker';
 
 ReactDOM.render(
-  <BrowserRouter basename={'/templatemonster/react/medboard'}>
-    <App />
-  </BrowserRouter>,
+
+  <App />
+  ,
   document.getElementById('medboard')
 );
 
@@ -33,3 +34,4 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+registerServiceWorker()

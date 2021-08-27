@@ -15,24 +15,13 @@ import Totalpatient from './Totalpatient';
 import Upcomingappoinment from './Upcomingappoinment';
 
 class Content extends Component {
-    render() { 
+    render() {
         return (
             <div className="ms-content-wrapper">
                 <div className="row">
-                    <Notifications/>
-                    <Notificationgraph/>
-                    <Calendar/>
-                    <Profilewidget/>
-                    <Analytics/>
-                    <Hospitalstaff/>
-                    <Totalpatient/>
-                    <Patientin/>
-                    <Upcomingappoinment/>
-                    <Doctorslist/>
-                    <Doctorengagements/>
-                    <Patienttimeline/>
-                    <Newpatient/>
-                    <Latestreport/>
+
+                    <Calendar />
+
                 </div>
             </div>
         );

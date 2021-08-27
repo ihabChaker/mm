@@ -1,0 +1,8 @@
+Preloader: Display something while the page is loading 
+
+Switch: Display the component with the first matching  route  react-router-dom
+
+Fragment group multiple elements with adding any extra elements to the DOM
+
+Meta tags : edit the html meta tags like title and  ...
+

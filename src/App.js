@@ -110,7 +110,7 @@ const Typography = React.lazy(() => import("./components/pages/uibasic/Typograph
 
 function App() {
   return (
-    <Router basename={'/templatemonster/react/medboard'}>
+    <Router >
       <Suspense fallback={<div></div>}>
         <Preloader />
         <Switch>
@@ -121,9 +121,9 @@ function App() {
           <Route path="/appointment/add-appointment" component={Addappointment} />
           <Route path="/appointment/appointment-list" component={Appointmentlist} />
           {/* apps */}
-          <Route path="/apps/chat" component={Chat} />
-          <Route path="/apps/email" component={Email} />
-          <Route path="/apps/to-do-list" component={Todolist} />
+          <Route path="/chat" component={Chat} />
+          <Route path="/email" component={Email} />
+          <Route path="/to-do-list" component={Todolist} />
           {/* bed manager */}
           <Route path="/bed-manager/add-bed" component={Addbed} />
           <Route path="/bed-manager/bed-list" component={Bedlist} />

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Form, InputGroup, Button, Col } from 'react-bootstrap';
-import Todobox, { } from "../../widgets/Todobox"
+
 function Addform() {
     const [validated, setValidated] = useState(false);
 
@@ -95,11 +95,6 @@ function Addform() {
                                 <InputGroup>
                                     <Form.Control as="textarea" rows={3} />
                                 </InputGroup>
-                            </Form.Group>
-                        </Form.Row>
-                        <Form.Row>
-                            <Form.Group as={Col} md="12" className="mb-3" >
-                                <Todobox />
                             </Form.Group>
                         </Form.Row>
                         <Button type="reset" variant="warning" className="mt-4 d-inline w-20 mr-2">Reset</Button>

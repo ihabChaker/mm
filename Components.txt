@@ -1,0 +1,15 @@
+App.js: description:Contains the whole application + declaration of the routes
+        location: App.js
+
+Home : description: the main page component. 
+        location: Home.js
+
+Animation: shows a page with the possible animations.
+        location: Animations.js
+
+Widgets : The same as home but with a different and more intressting elements on the page .
+        location : Widgets.js
+
+data: folder Contains the data of the examples shown in the different components.
+        location : data
+
