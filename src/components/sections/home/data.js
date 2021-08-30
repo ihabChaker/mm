@@ -124,8 +124,25 @@ export const data = [
 
 export const resourcesData = [
     {
-        text: "Doctor's Appointment",
+        text: "Appointment",
         id: 1,
         color: '#009efb'
-    }
+    },
+    {
+        text: "Taken appointment",
+        id: 2,
+        color: '#fb001d'
+    },
+    {
+        text: "Surgerie",
+        id: 3,
+        color: '#fb00ff'
+    },
+    {
+        text: "Meeting",
+        id: 4,
+        color: '#fb00ff'
+    },
+
+
 ];
